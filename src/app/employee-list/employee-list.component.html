@@ -1,0 +1,20 @@
+<h2>employee-list</h2>
+<h2>{{userr}}sss</h2>
+
+<table class="table table-striped">
+
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>username</th>
+            <th>password</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let employee of employees">
+            <td>{{employee.id}}</td>
+            <td>{{employee.username}}</td>
+            <td>{{employee.password}}</td>
+        </tr>
+    </tbody>
+</table>
